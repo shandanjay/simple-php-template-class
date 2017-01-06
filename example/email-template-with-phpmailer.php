@@ -1,7 +1,7 @@
 <?php
 /**
  * sending a message using a local sendmail binary.
-	template file is mail.tpl.html
+ *	template file is mail.tpl.html
  */
 
 require dirname(__FILE__).'/PHPMailer/PHPMailerAutoload.php';
