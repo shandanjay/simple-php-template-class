@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8"> <!-- utf-8 works for most cases -->
+	<meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+    <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+	<title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+	<!-- Web Font / @font-face : BEGIN -->
+	<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Arizonia|Niconne|Pinyon+Script" rel="stylesheet">
+	<!-- NOTE: If web fonts are not required, lines 10 - 27 can be safely removed. -->
+
+	<!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
+	<!--[if mso]>
+		<style>
+			* {
+				font-family: sans-serif !important;
+			}
+		</style>
+	<![endif]-->
+
+	<!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
+	<!--[if !mso]><!-->
+		<!-- insert web font reference, eg: <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'> -->
+	<!--<![endif]-->
+
+	<!-- Web Font / @font-face : END -->
+
+    <style>
+			#footer{
+				font-size:12px;
+				font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;
+				padding:18px 0;
+				font-weight:300;
+				line-height:16px;
+				text-align:center;
+				border:none;
+			}
+    </style>
+
+</head>
+<body width="100%" bgcolor="#222222" style="margin: 0; mso-line-height-rule: exactly;">
+    <center style="width: 100%; background: #F4F4F4;">
+
+        <!-- Visually Hidden Preheader Text : BEGIN -->
+        <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">
+            Best greetings from 
+        </div>
+        <!-- Visually Hidden Preheader Text : END -->
+
+        <!-- Email Header : BEGIN -->
+        <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" style="border-collapse:collapse;width:100%;background:#435e9c;background-image:-webkit-linear-gradient(top,#BC008A,#990066);border-color:#0a1f4f;border-style:solid;border-width:0px 0px 1px 0px;height:47px">
+          <tbody><tr><td><center><table cellspacing="0" cellpadding="0" width="610" height="44" style="border-collapse:collapse">
+            <tbody><tr><td align="left" tyle="width:100%;line-height:47px">
+              <table cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+                <tbody><tr><td width="19"><a href="#" style="color:#3b5998;text-decoration:none" target="_blank"><img src="https://www.example.com/logo.png" alt=" Logo" style="border:0;display:block;margin:13px 0 14px 0;height:24px;"></a></td><td width="10" style="width:10px"></td></tr></tbody>
+              </table></td></tr>
+            </tbody></table></center></td></tr>
+          </tbody>
+        </table>
+        <!-- Email Header : END -->
+
+        <!-- Email Body : BEGIN -->
+        <table cellspacing="0" cellpadding="0" width="100%" style="border-collapse:collapse;width:100%;">
+          <tbody><tr><td><center><table cellspacing="0" cellpadding="0" width="610" height="44" style="border-collapse:collapse">
+            <tbody><tr><td align="left" tyle="width:100%;line-height:47px">
+              <table cellspacing="0" cellpadding="0" style="border-collapse:collapse;width:100%;font-family:LucidaGrande,tahoma,verdana,arial,sans-serif;">
+                <tbody>
+                  <tr>
+                    <td style="padding:20px 0px;">
+                      <h1 style="font-size:18px;margin:0px;color:#990066;font-weight: normal;">Subscribed to Bestay.lk</h1>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:#ffffff;border-color:#c1c2c4;border-style:solid;display:block;border-width:1px;border-radius:5px;overflow:hidden;padding:15px;line-height:18px;">
+                      <table style="width: 100%;">
+                        <tbody style="font-size:12px;">
+                          <tr>
+                            <td class="linespace">Hey {$username},</td>
+                          </tr>
+													<tr>
+                            <td style="text-align:center;color:#990066;font-size:40px;padding-bottom:20px;line-height:60px;">Congratulations!</td>
+                          </tr>
+                          <tr>
+                            <td class="linespace">Congratulations, you are now subscribed to the site <a href="http://www.example.com" style="color:#3b5998;text-decoration:none">example.com</a> and you will receive regular updates from <a href="https://www.example.com" style="color:#3b5998;text-decoration:none">example.com</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                    <tr>
+                      <td style="padding:20px;"></td>
+                    </tr>
+              </tbody>
+            </table>
+          </td></tr>
+          </tbody></table></center></td></tr>
+        </tbody>
+      </table>
+        <!-- Email Body : END -->
+
+        <!-- Email Footer : BEGIN -->
+        <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#3F3F3F" style="border-collapse:collapse;width:100%;background:#3F3F3F;border-color:#333333;border-style:solid;border-width:0px 0px 1px 0px;height:47px">
+          <tbody><tr><td><center><table cellspacing="0" cellpadding="0" width="610" height="44" style="border-collapse:collapse">
+            <tbody><tr><td align="center" tyle="width:100%;line-height:47px">
+              <table cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+                <tbody id="footer"><tr><td><p style="color:#898989;text-decoration:none; text-align:left">
+                  This message was sent to <a href="mailto:{$email}" style="color:#dcdcdc;text-decoration:none"> {$email} </a> at your request. If you don't want to receive these emails from  in the future, please <a href="https://www.example.com/unsubscribe.php" style="color:#dcdcdc;text-decoration:none">unsubscribe</a>.
+								If you did not subscribe using this email address, <a href="" style="color:#dcdcdc;text-decoration:none">please let us know</a>.</p></td></tr>
+								<tr><td><p style="color:#dcdcdc;text-decoration:none; text-align:center">
+                   Inc.</p></td></tr>
+                </tbody>
+              </table></td></tr>
+            </tbody></table></center></td></tr>
+          </tbody>
+        </table>
+        <!-- Email Footer : END -->
+
+    </center>
+</body>
+</html>
