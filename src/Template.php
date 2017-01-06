@@ -1,8 +1,8 @@
 <?php
 /**
  * 
- * @author Dan Jay <shehan.jay@pluspro.com>
- * Modified On 03/07/2015
+ * @author Dan Jay <shandanjay@gmail.com>
+ * Created On 03/07/2015
  *
  */
 class Template {
