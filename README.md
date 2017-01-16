@@ -3,3 +3,5 @@ Simple PHP Template class Inspired by [Smarty Template Library](https://github.c
 
 ##TODO
 * Add docs
+* Add conditions support
+* Add looping support
